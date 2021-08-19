@@ -39,3 +39,21 @@ function playVideo(element) {
   }
 }
 
+function subThanks (element){
+
+  element.innerText = "Thanks For Subbing!";
+
+}
+
+
+
+function shadowMove(element){
+
+  element.classList.add("shadow-effect");
+ }
+
+function shadowOut(element){
+
+  element.classList.remove("shadow-effect");
+}
+
